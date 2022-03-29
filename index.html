@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda de contactos</title>
+</head>
+<body>
+    <div class="container">
+        <!--Head-->
+        <h2>Agenda de Contactos</h2>
+        <div class="formulario">
+            <input type="text" class="nombre" placeholder="Nombres" required >
+            <input type="text" class="apellido" placeholder="Apellidos">
+            <input type="text" class="celular" placeholder="Numero Celular">
+            <input type="text" class="fijo" placeholder="Numero Fijo">
+            <input type="text" class="direccion" placeholder="Direccion">
+            <input type="text" class="correo" placeholder="Correo Electronico">
+            <button class="btn-agregar-contacto" type="submit">Agregar Contacto</button>
+
+            <!-- listado de tares -->
+            <div class="listado-contactos">
+                <div class="titulos">
+                    <h3>Nombres</h3>
+                    <h3>Apellidos</h3>
+                    <h3>Nº Celular</h3>
+                    <h3>Nº fijo</h3>
+                    <h3>Direccion</h3>
+                    <h3>Email</h3>
+                    <h3>Boton borrar</h3>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <footer>
+        <h3>Creado por Diego Fernando Valencia Montalvo</h3>
+        <p>2022</p>
+    </footer>
+    <script src="funciones.js"></script>
+    <script defer src="main.js"></script>
+    
+        
+</body>
+</html>
